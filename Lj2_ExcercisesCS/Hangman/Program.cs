@@ -16,7 +16,7 @@ namespace Hangman
     {
         static void Main(string[] args)
         {
-            //test bericht ndasjgydugzhcshyjdsa
+            //test bericht
         }
     }
 }
