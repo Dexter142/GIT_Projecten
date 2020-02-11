@@ -30,6 +30,7 @@ namespace Even_Odd
             // Add a white line and give the user their input back
             Console.WriteLine();
             Console.WriteLine("Your number is: " + userInputInt);
+            Console.WriteLine();
 
             GetEvenOrOdd(userInputInt);
 
@@ -42,15 +43,14 @@ namespace Even_Odd
                 // If the result is 0, it is an even number
                 if (moduloResult == 0)
                 {
-                    Console.WriteLine("" + moduloResult);
+                    Console.WriteLine("This number is an even number");
                 }
                 // If the result is 1, it is an odd number
                 else if (moduloResult == 1)
                 {
-                    Console.WriteLine("" + moduloResult);
+                    Console.WriteLine("This number is an odd number");
                 }
             }
-
 
             Console.ReadLine();
         }
