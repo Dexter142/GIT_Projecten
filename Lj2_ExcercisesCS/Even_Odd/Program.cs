@@ -16,6 +16,11 @@ namespace Even_Odd
     {
         static void Main(string[] args)
         {
+            string userInput;
+            int userInputInt;
+
+
+            Console.ReadLine();
         }
     }
 }
