@@ -16,6 +16,18 @@ namespace LeapYear
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What year do you wish to check?");
+            string year = Console.ReadLine();
+            int.TryParse(year, out int result);
+            if (result % 4 == 0)
+            {
+            Console.WriteLine("{0} is a leapyear", year);
+            }
+            else
+            {
+            Console.WriteLine("The year {0} is in fact NOT a leapyear!", year);
+            }
+            Console.ReadLine();
         }
     }
 }
