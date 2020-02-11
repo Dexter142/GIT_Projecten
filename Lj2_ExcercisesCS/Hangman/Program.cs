@@ -31,7 +31,9 @@ namespace Hangman
             listwords[7] = "verzenden";
             listwords[8] = "kleding";
             listwords[9] = "school";
+
             Random randGen = new Random();
+
             var idx = randGen.Next(0, 9);
             string mysteryWord = listwords[idx];
             char[] guess = new char[mysteryWord.Length];
