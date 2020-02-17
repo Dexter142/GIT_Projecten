@@ -17,6 +17,25 @@ namespace Palindrome
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("What word do you wish to check?");
+            string word = Console.ReadLine();
+            //Replace space with empty
+            word = word.Replace(" ", String.Empty);
+            //Make a character array
+            char[] letters = word.ToCharArray();
+            Array.Reverse(letters);
+            //Make letter array back into a string
+            string reversed = new string(letters);
+            //Also make sure to check if it actually is the same and that it does not give a shit about caps else it will answer wrongly.
+            if(reversed.ToUpper() == word.ToUpper())
+            {
+            Console.WriteLine("The word is a palindrome");
+            }
+            else
+            {
+            Console.WriteLine("This word is in fact NOT a palindrome");
+            }
+            Console.ReadLine();
         }
     }
 }
