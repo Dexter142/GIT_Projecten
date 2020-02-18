@@ -1,0 +1,31 @@
+Communicatie via: spraak.
+
+Commit message:
+- De file waarin je gewerkt hebt
+- Wat je aan die file verandert hebt
+- Werking van de nieuwe code + Als het nu samen werkt met een andere code of een ander stuk code nu juist benodigd is voor dit script.
+- Eigen opmerkingen 
+
+Code regels + Conventies: (Dexter is the cop)
+//Bij iets lastiger stukje code waarvan je weet dat niet iedereen hem begrijpt een comment erbij zetten.
+Pascal case voor methods.
+kamilCase voor variabel naming.
+
+Branching:
+Master branch.
+Test branch die precies gelijk is aan master.
+Iedereen eigen branch.
+
+Naamgeving Branches:
+Master
+Test
+Dev_Kamil
+Dev_Dexter
+Dev_Martijn
+Dev_rens
+
+Project verdeling:
+Kamil = Steen Papier schaar.
+Martijn = Even or oneven, pythagoras.
+Dexter = Hangman.
+Rens = Schrikkeljaar, palindrome
